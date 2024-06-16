@@ -1,0 +1,90 @@
+.form-container {
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 6px;
+    background-color: white;
+    width: 400px;
+    margin: 6% auto;
+    .login-title {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 400;
+      letter-spacing: normal !important;
+      text-align: center;
+    }
+  
+    .link-label {
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 10px;
+      cursor: pointer;
+      color:blue;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    .login-icon {
+      padding: 16px 0;
+      text-align: center;
+    }
+  
+    .form-button {
+      font-size: 12px;
+      text-transform: capitalize;
+      box-shadow: none !important;
+      width: 100%;
+      border-radius: 2px;
+      font-weight: 500;
+      background: blue;
+      color: white;
+    }
+  
+    .form-info-text {
+      color: #677484;
+      font-size: 15px;
+    }
+  
+    .register-privacy-text {
+      font-size: 14px;
+    }
+  
+    .lock-screen-profile {
+      padding-bottom: 0px;
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .react-form-input {
+    border-radius: 6px !important;
+    font-size: 14px !important;
+    border: 1px solid #ddd !important;
+    &:focus {
+      border: 1px solid #9a9a9a !important;
+      box-shadow: none !important;
+    }
+  }
+
+  .form-button {
+    font-size: 12px;
+    text-transform: capitalize;
+    box-shadow: none !important;
+    width: 100%;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #00c486;
+    color: white;
+  }
+
+  .btnsize {
+    width: 77px;
+  }
+
+  .btn-success {
+    font-size: 14px;
+  }
+
+  .pa-24 {
+    padding:10px;
+  }
